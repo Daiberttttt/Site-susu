@@ -1,0 +1,649 @@
+
+
+a
+{
+text-decoration: none;
+}
+header{
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+    height: 44px;
+}
+
+#contato{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 8%;
+   
+}
+
+
+#itensMenu li:hover{
+    color: #0d0cb5;
+}
+
+#txtbn{
+    height: 1099px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    background-image: url(https://preview.colorlib.com/theme/chimper/images/hero_1.jpg.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: multiply;
+    text-decoration: none;
+}
+
+#container-txtbn{
+    text-align: center;
+}
+
+#txtbn h1{
+    color: white;
+    font-size: 48px;
+    font-weight: normal;
+    margin: 0 0 8px;
+}
+
+#txtbn p{
+    font-size: 19.2px;
+    color: #ffffff80;
+    margin: 0 0 48px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{ padding: 0;
+margin: 0;
+box-sizing: border-box;}
+#txtbn button{
+    height: 50px;
+    width: 115px;
+    background-color: #0d0cb4;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    transition: 0.3s;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#txtbn button:hover{
+    background-color: #0a0a91;
+}
+
+#preto{
+    display: flex;
+    justify-content: center;
+    height: 566px;
+    position: relative;
+}
+
+#cntdblack{
+    padding: 30px 15px;
+    height: 566px;
+    width: 1125px;
+    background-color: black;
+    position: absolute;
+    top: -130px;
+    display: flex;
+}
+
+#playBtn{
+    margin-left: 15px; 
+    fill: rgb(13, 12, 181);
+}
+
+#a2esq{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+}
+
+#a2esq img{
+    margin-top: 48px;
+    margin-left: 15px;
+}
+
+.txtesq{
+    color: white;
+    display: flex;
+}
+
+.txtesq p{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+
+.cntdir{
+    color: white;
+}
+
+.cntdir h1{
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+
+.cntdir svg{
+    vertical-align: middle;
+    height: 1.4em;
+    margin-right: 5px;
+}
+
+.cntdir p{
+    color: #737373;
+    margin-bottom: 16px;
+}
+
+.cntdir a{
+    color: white;   
+}
+
+#undBack{
+    background-color: white;
+    z-index: -10;
+    padding-bottom: 100px;
+}
+
+#arD{
+    padding-left: 107px;
+    display: grid;
+    grid-template-columns: 247px 247px;
+    grid-template-rows: 162px 162px;
+    align-content: center;
+    row-gap: 16px;
+    column-gap: 30px;
+}
+#numBhd{
+    margin: 80px 10% 0;
+}
+
+#numContent{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.frtContent :last-child{
+    font-size: 8rem;
+    color: #f2f4f5;
+    font-weight: bold;
+    position: absolute;
+    z-index: -1;
+    top: -3rem;
+    left: -3rem; 
+}
+
+#txtFrt{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.frtContent{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    z-index: 1;
+    position: relative;
+}
+
+.frtContent h1{
+    font-size: 32px;
+    color: #4d4d4d;
+    margin: 0 0 8px;
+}
+
+#icons{
+    padding-right: 700px;   }
+   
+   #contatoItens{
+       display: flex;
+       height: 44px;
+       align-items: center;
+   }
+   
+   #contatoItens p{
+       margin-right: 10px;
+       color: #4d4d4d;
+   }
+   
+   
+   #itensMenu>svg { fill: black;}
+   #icones svg{
+       margin: 8px;
+       fill: blue;
+   }
+   
+   #menu{
+       display: flex;
+       align-items: center;
+       height: 96px;
+       background-color: white;
+   
+   }
+   
+   #menu a{    list-style: none;
+       color: black;   }
+   
+   #container{
+       display: flex;
+       width: 100%;
+       align-items: center;
+       justify-content: space-around;
+   
+       
+   }
+   
+   #itensMenu{
+       display: flex;
+       list-style: none;
+   }
+   
+   #itemAzul{
+       color: #0d0cb5;
+   }
+   
+   #itensMenu li{
+       margin: 0 1vw; 
+       transition: 0.25s;
+   }
+   
+   #itensMenu svg{
+       width: 1vh;
+   }
+   
+
+.frtContent p{
+    font-size: 16px;
+    color: #4d4d4d;
+    word-break: break-all;
+    line-height: 25px;
+}
+
+#fp{
+    text-align: center;
+    margin-top: 160px;
+}
+
+#txtFP h1{
+    font-size: 64px;
+    margin-bottom: 17px;
+    color: black;
+}
+
+.linhaAzul{
+    margin: 0 auto;
+    width: 100px;
+    height: 3px;
+    background-color: #0d0cb5;
+    margin-bottom: 50px;
+}
+
+#txtFP{
+    font-size: 20px;
+    color: #4d4d4d;
+    margin-bottom: 64px;
+}
+
+#txtFP p{
+    color: #4d4d4d;
+    line-height: 35px;
+    font-weight: 300;
+}
+
+#imgFP{
+    padding: 0 20px 0;
+    display: flex;
+    gap: 1.5%;
+}
+
+#imgFP img{
+    transition: 0.36s;
+}
+
+.configImgFP{
+    overflow: hidden;
+    position: relative
+}
+
+.txtConfigImgFP{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 20px;
+    visibility: hidden;
+
+}
+
+.txtConfigImgFP h2{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.txtConfigImgFP p{
+    color: #999999;
+    font-size: 13px;
+    letter-spacing: 0.2em;
+}
+
+.configImgFP:hover img{ 
+    filter: brightness(30%);
+    transform: scale(1.05);
+}
+
+.configImgFP:hover .txtConfigImgFP{
+    visibility: visible;
+    margin-top: 0px;
+    transition: 0.4s;
+}
+
+#centerBtnAzul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#bsa{
+    height: 50px;
+    width: 185px;
+    background-color: #0d0cb5;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    transition: 0.3s;
+    margin: 48px 0 160px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#bsa:hover{
+    background-color: #0a0a91;
+}
+
+
+
+#testimonials h1{
+    font-size: 64px;
+    margin-bottom: 17px;
+    color: black;
+    text-align: center;
+}
+
+#testimonials p{
+    color: #4d4d4d;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    line-height: 40px;
+}
+
+#txtPerfil{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#txtPerfil img{
+    vertical-align: middle;
+    margin: 0 25px 0 0;
+    border-radius: 50%;
+    width: 50px;
+}
+
+#txtPerfil p{
+    font-style: normal;
+    color: #4d4d4d;
+    font-size: 1em;
+}
+
+#cinza{
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 5em 0;
+}
+
+#blog{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 20%;
+}
+
+#blog h1{
+    font-size: 64px;
+    margin-bottom: 17px;
+    color: black;
+    text-align: center;
+}
+
+#cblog{
+    display: flex;
+    justify-content: center; 
+}
+
+.c{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    max-width: 33%;
+}
+
+.c img{
+    margin-bottom: 30px;
+}
+
+.cw{
+    text-decoration: none;
+    color:#0d0cb5;
+    font-size: 20px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+}
+
+.cw:hover{
+    color: #0a0a91;
+}
+
+.scw{
+    font-size: 14px;
+    color: #b3b3b3;
+    margin:8px 0 24px;
+}
+
+.bolinha{
+    margin: 0 0.5rem;
+}
+
+.newsSub{
+    font-size: 14px;
+    color: #0d0cb5;
+}
+
+.txtSub{
+    font-size: 1rem;
+    color: #4d4d4d;
+    line-height: 30px;
+    word-wrap:break-word;
+    margin-bottom: 16px;
+}
+
+.ccw{
+    font-size: 1rem;
+    color:#0d0cb5;
+    font-weight: thin;
+    text-decoration: none;
+}
+
+#hireUs{
+    width: 100%;
+    border: none;
+    background-color: #0d0cb5;
+    padding: 3rem 0;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-family: 'Quicksand', sans-serif;
+    transition: 0.5s;
+}
+
+#hireUs:hover{
+    background-color: #0a0985;
+}
+
+#finalPreto{
+    width: 100%;
+    padding: 8rem 0; 
+    background-color: #333333;
+}
+
+#contentFinal{
+    display: flex;
+    justify-content: center;
+    margin: 0 10%;
+    padding-bottom: 100px;
+    border-bottom: solid 1px #4d4d4d;
+}
+
+.titleFinal{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+#About{
+    padding: 0 15px;
+    font: 16px;
+    color: #737373;
+    width: 25%;
+    line-height: 27px;
+}
+
+#Features{
+    margin-left:86px;
+    width: 14%;
+    color: #999999;
+    transition: 0.4s;
+}
+
+#Features a{
+    text-decoration: none;
+    color: #999999;
+    transition: 0.3s;
+}
+
+#Features p{
+    margin-bottom: 10px;
+}
+
+#Features a:hover{
+    color: white;
+}
+
+#FollowUs{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+#iconesFinal svg{
+    fill: #999999;
+    margin-right: 32px;
+    transition: 0.4s;
+}
+
+#iconesFinal svg:hover{
+    fill: white;
+}
+
+#SN input{
+    border-radius: 30px;
+    height: 40px;
+    background-color: #333333;;
+    border: solid 1px #999999;
+    vertical-align: middle;
+    color: #999999;
+    font-size: 1em;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+}
+
+#SN button{
+    position: absolute;
+    height: 40px;
+    width: 3.2%;
+    border: none;
+    background-color: #0d0cb5;
+    color: white;
+    font-size: 1em;
+    font-family: 'Quicksand', sans-serif;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#Final{
+    text-align: center;
+    margin-top: 10%;
+}
+
+#Final p{
+    color: #737373;
+    font-size: 16px;
+}
+
+#Final svg{
+    fill: #737373;
+}
+
+#Final p span{
+    color: #999999;
+}
+
+#subMenu{
+    list-style: none;
+    position: absolute;
+    text-align: left;
+    border-top: 2px solid #0d0cb5;
+    border-left: 1px solid #edf0f5;
+    border-right: 1px solid #edf0f5;
+    border-bottom: 1px solid #edf0f5;
+    margin-top: 20px;
+    margin-left: 0px;
+    background: #fff;    
+    opacity: 0;
+    transition: 0.5;
+}
+
+#subMenu li{
+    padding: 10px;
+    margin: 0;
+}
+#Services:hover #subMenu
+{
+    opacity: 1;
+    transition: 0.5;
+}
+
+.backcolor:hover
+{
+    background-color: #F4F5F9 ;
+}

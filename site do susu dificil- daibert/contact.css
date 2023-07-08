@@ -1,0 +1,465 @@
+
+
+a
+{
+text-decoration: none;
+}
+header{
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+    height: 44px;
+}
+
+#menu a{    list-style: none;
+    color: black;   }
+
+#contato{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 8%;
+   
+}
+
+#contatoItens{
+    display: flex;
+    height: 44px;
+    align-items: center;
+}
+
+#contatoItens p{
+    margin-right: 10px;
+    color: #4d4d4d;
+}
+
+#icones{
+    margin-left: 580px;
+
+}
+#itensMenu>svg { fill: black;}
+#icones svg{
+    margin: 8px;
+    fill: blue;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    height: 96px;
+    background-color: white;
+}
+
+#container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+    
+}
+
+#itensMenu{
+    display: flex;
+    list-style: none;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    background-image: url(https://preview.colorlib.com/theme/chimper/images/hero_1.jpg.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: multiply;
+    text-decoration: none;
+}
+
+#itemAzul{
+    color: #0d0cb5;
+}
+
+#itensMenu li{
+    margin: 0 1vw; 
+    transition: 0.25s;
+}
+
+#itensMenu svg{
+    width: 1vh;
+}
+
+#itensMenu li:hover{
+    color: #0d0cb5;
+}
+
+#subMenu{
+    list-style: none;
+    position: absolute;
+    text-align: left;
+    border-top: 2px solid #0d0cb5;
+    border-left: 1px solid #edf0f5;
+    border-right: 1px solid #edf0f5;
+    border-bottom: 1px solid #edf0f5;
+    margin-top: 20px;
+    margin-left: 0px;
+    background: #fff;    
+    opacity: 0;
+    transition: 0.5;
+    
+}
+  
+#subMenu li{
+    padding: 10px;
+    margin: 0;
+}
+#Services:hover #subMenu
+{
+    opacity: 1;
+    transition: 0.5;
+}
+
+header{
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+    height: 44px;
+}
+
+#menu a{    list-style: none;
+    color: black;   }
+
+#contato{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 8%;
+   
+}
+
+#contatoItens{
+    display: flex;
+    height: 44px;
+    align-items: center;
+}
+
+#contatoItens p{
+    margin-right: 10px;
+    color: #4d4d4d;
+}
+
+#icones{
+    margin-left: 580px;
+
+}
+#itensMenu>svg { fill: black;}
+#icones svg{
+    margin: 8px;
+    fill: blue;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    height: 96px;
+    background-color: white;
+}
+
+#container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+    
+}
+
+#itensMenu{
+    display: flex;
+    list-style: none;
+}
+
+#txtbd
+{
+    margin-top: 30vh;
+    margin-left: 40%;
+    height: 40vh;
+}
+
+#our
+{
+    color: white;
+    font-size:3rem;
+    margin-left: 1.4%;
+}
+
+#txtbdpqn
+{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+    line-height: 1;
+    margin-right: 5vh;
+    
+}
+
+#prtwhite
+{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin-top: 10vh;
+    padding-top: 10vh;
+    padding-left: 20vh;
+    padding-right: 20vh;
+    padding-bottom: 10vh;
+    background-clip: padding-box;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{ padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+
+#prtwhite form{
+    background-color: #fff;
+    padding: 5vh;
+    padding-bottom: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2%;
+    color: #000;
+}
+
+
+form h4
+{
+    font-size: 1.5em;
+    font-weight: 400;
+    grid-column: span 2;
+}
+form input
+{
+    border: rgb(108, 117, 125) 1px solid;
+    border-radius: 30px;
+    background-color: transparent;
+    height: 5vh;
+
+
+}
+form input:hover
+{
+    border-color: #0d0cb5;
+}
+#msg
+{
+    grid-column: span 2;
+    resize: vertical;
+    height: 20vh;
+}
+#sbj
+{
+    grid-column: span 2;
+    height: 7vh;
+}
+
+#email
+{
+    grid-column: span 2;
+    height: 7vh; 
+}
+
+#aftername
+{
+    height: 7vh;
+}
+
+#frstname
+{
+    height: 7vh;
+
+}
+
+#sbmt
+{
+    background-color: #0d0cb5;
+    height: 7vh;
+    width: 20vh;
+    color: #fff;
+}
+
+article
+{
+    width: 100%;
+    margin-left: 5vh;
+}
+#cttinfo
+{
+    background-color: #fff;
+    color: #4d4d4d;
+    padding: 5vh;
+}
+#cttinfo p
+{
+    font-weight: 500;
+}
+#cttinfo a
+{
+    text-decoration: none;
+    color: #0d0cb5;
+}
+
+#info
+{
+    margin-top: 5vh;
+    padding: 5vh;
+    background-color: #fff;
+    color: #4d4d4d;
+}
+
+#fnlbbb{
+    width: 100%;
+    padding: 8rem 0; 
+    background-color: #333333;
+    
+}
+
+#contentFinal{
+    display: flex;
+    justify-content: center;
+    margin: 0 10%;
+    padding-bottom: 100px;
+    border-bottom: solid 1px #4d4d4d;
+}
+
+.titleFinal{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+#lrnm{background-color: #0d0cb5; color: white; border-radius: 40%; padding: 5px;}
+
+#About{
+    padding: 0 15px;
+    font: 16px;
+    color: #737373;
+    width: 25%;
+    line-height: 27px;
+}
+
+#Features{
+    margin-left:86px;
+    width: 14%;
+    color: #999999;
+    transition: 0.4s;
+}
+
+#Features a{
+    text-decoration: none;
+    color: #999999;
+    transition: 0.3s;
+}
+
+#Features p{
+    margin-bottom: 10px;
+}
+
+#Features a:hover{
+    color: white;
+}
+
+#FollowUs{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+#iconesFinal svg{
+    fill: #999999;
+    margin-right: 32px;
+    transition: 0.4s;
+}
+
+#iconesFinal svg:hover{
+    fill: white;
+}
+
+#SN input{
+    border-radius: 30px;
+    height: 40px;
+    background-color: #333333;;
+    border: solid 1px #999999;
+    vertical-align: middle;
+    color: #999999;
+    font-size: 1em;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+}
+
+#SN button{
+    position: absolute;
+    height: 40px;
+    width: 3.2%;
+    border: none;
+    background-color: #0d0cb5;
+    color: white;
+    font-size: 1em;
+    font-family: 'Quicksand', sans-serif;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#Final{
+    text-align: center;
+    margin-top: 10%;
+}
+
+#Final p{
+    color: #737373;
+    font-size: 16px;
+}
+
+#Final svg{
+    fill: #737373;
+}
+
+#Final p span{
+    color: #999999;
+}
+
+form input
+{
+    border: rgb(108, 117, 125) 1px solid;
+    border-radius: 30px;
+    background-color: transparent;
+    height: 5vh;
+
+
+}
+form input:hover
+{
+    border-color: #0d0cb5;
+}
+#msg
+{
+    grid-column: span 2;
+    resize: vertical;
+    height: 20vh;
+}
+#sbj
+{
+    grid-column: span 2;
+    height: 7vh;
+}
+
+#email
+{
+    grid-column: span 2;
+    height: 7vh; 
+}

@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{ padding: 0;
+margin: 0;
+box-sizing: border-box;}
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    background-image: url(https://preview.colorlib.com/theme/chimper/images/hero_1.jpg.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: multiply;
+    text-decoration: none;
+}
+a
+{
+text-decoration: none;
+}
+header{
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+    height: 44px;
+}
+
+#menu a{    list-style: none;
+    color: black;   }
+
+#contato{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 8%;
+   
+}
+
+#contatoItens{
+    display: flex;
+    height: 44px;
+    align-items: center;
+}
+
+
+
+#icones{
+    margin-left: 580px;
+
+}
+#itensMenu>svg { fill: black;}
+#icones svg{
+    margin: 8px;
+    fill: blue;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    height: 96px;
+    background-color: white;
+}
+
+#contatoItens p{
+    margin-right: 10px;
+    color: #4d4d4d;
+}
+#container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+    
+}
+
+#itensMenu{
+    display: flex;
+    list-style: none;
+}
+
+#itemAzul{
+    color: #0d0cb5;
+}
+
+#itensMenu li{
+    margin: 0 1vw; 
+    transition: 0.25s;
+}
+
+#itensMenu svg{
+    width: 1vh;
+}
+
+#itensMenu li:hover{
+    color: #0d0cb5;
+}
+
+
+  
+#subMenu li{
+    padding: 10px;
+    margin: 0;
+}
+#Services:hover #subMenu
+{
+    opacity: 1;
+    transition: 0.5;
+}
+
+#txtb
+{
+    margin-top: 30vh;
+    margin-left: 40%;
+    height: 30vh;
+}
+
+
+#our
+{
+    color: white;
+    font-size:3rem;
+    margin-left: 2vh;
+    
+}
+yyyyyy
+#subMenu{
+    list-style: none;
+    position: absolute;
+    text-align: left;
+    border-top: 2px solid #0d0cb5;
+    border-left: 1px solid #edf0f5;
+    border-right: 1px solid #edf0f5;
+    border-bottom: 1px solid #edf0f5;
+    margin-top: 20px;
+    margin-left: 0px;
+    background: #fff;    
+    opacity: 0;
+    transition: 0.5;
+    
+}
+#textobodypequeno
+{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+    line-height: 1;
+
+    
+}
+#partebranca
+{
+    background-color: white;
+    height: 100%;
+    padding-top: 5%;
+
+}
+
+#gpl
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-items: center;
+    margin-bottom: 26vh;
+}
+
+#parte1
+{
+    display: grid;
+    grid-template-columns: 2fr ;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+
+}
+#taz
+{
+    width: 80px;
+    border: 1px solid #0d0cb5;
+}
+#speci
+{
+    color: #0d0cb5;
+    font-weight: 700;
+    font-size: 2rem;
+}
+#fimg
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+#web
+{
+    font-weight: 700ss;
+}
+#more
+{
+    color: #0d0cb5;
+    padding-top: 6vh;
+}
+#imgteclado
+{
+    
+    height: 60%;
+}
+
+#time
+{
+    color: #0d0cb5;
+    font-weight: 700;
+    font-size: 2rem;
+    display: grid;
+    justify-content: center;
+}
+#taz2
+{
+    border: solid 1.9px #0d0cb5;
+    width: 100px;
+    margin-bottom: 16vh;
+    margin-left: 3vh;
+}
+#pessoas
+
+{
+    display: grid;
+    height: 40%;
+}
+
+#final {
+    display: flex;
+    flex-basis: 100%;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+  }
+ 
+
+  #final img {
+  border-radius: 100%;
+  width: 55%;
+  margin-bottom: 16%;
+
+  }
+#rst
+{
+    margin-left: -20vh;
+    font-weight: 600;
+    padding-bottom: 3vh;
+    
+}
+#funcao
+{
+    color: #ccc;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-bottom: 3vh;
+    margin-left: -16vh;
+    
+}
+#resto 
+{
+    display: flex;
+    justify-items: center;
+    justify-content:center ;
+    align-items: center;
+}
+  
+
+
+#nmrbx
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10vh;
+    padding-top: 12vh;
+}
+
+#num1
+{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #b3b3b3;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 1vh;
+    transition: 1s;
+    fill: white;
+    
+}
+
+#num2
+{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #b3b3b3;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 1vh;
+    fill: white;
+}
+
+
+#num1:hover
+{
+    transition: 1s;
+    background-color: black;
+}
+
+#num2:hover
+{
+    transition: 1s;
+    background-color: black;
+}
+
+#lstpqn
+{
+    width: 100%;
+    color: #4d4d4d;
+    height: 0.5px;
+    border: solid 0.5px lightgray;
+    margin-top: 2vh;
+    margin-bottom: 9vh;
+}
+
+#Testimonials
+{
+    font-size: 4rem;
+    display: grid;
+    justify-items: center;
+}
+
+.linhaAzul{
+    margin: 0 auto;
+    width: 100px;
+    height: 3px;
+    background-color: #0d0cb5;
+    margin-bottom: 50px;
+}
+
+#txtdolores
+{
+    margin-left: 30px;
+}
+
+#txtbxaz
+{
+    font-size: 1.5rem;
+    font-style: italic;
+    padding-top: 6vh;
+    display: grid;
+    justify-items: center;
+}
+#robert
+{
+    padding-top: 6vh;
+display: flex;
+justify-items: center;
+justify-content: center;
+padding-bottom: 6vh;
+align-items: center;
+}
+#roberto
+{
+    margin-right: 3vh;
+    border-radius: 50%;
+    height: 50px;
+}
+
+#hireUs{
+    width: 100%;
+    border: none;
+    background-color: #0d0cb5;
+    padding: 3rem 0;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-family: 'Quicksand', sans-serif;
+    transition: 0.5s;
+}
+
+#hireUs:hover{
+    background-color: #0a0985;
+}
+
+#finalPreto{
+    width: 100%;
+    padding: 8rem 0; 
+    background-color: #333333;
+}
+
+#contentFinal{
+    display: flex;
+    justify-content: center;
+    margin: 0 10%;
+    padding-bottom: 100px;
+    border-bottom: solid 1px #4d4d4d;
+}
+
+.titleFinal{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+#About{
+    padding: 0 15px;
+    font: 16px;
+    color: #737373;
+    width: 25%;
+    line-height: 27px;
+}
+
+#Features{
+    margin-left:86px;
+    width: 14%;
+    color: #999999;
+    transition: 0.4s;
+}
+
+#Features a{
+    text-decoration: none;
+    color: #999999;
+    transition: 0.3s;
+}
+
+#Features p{
+    margin-bottom: 10px;
+}
+
+#Features a:hover{
+    color: white;
+}
+
+#FollowUs{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+#iconesFinal svg{
+    fill: #999999;
+    margin-right: 32px;
+    transition: 0.4s;
+}
+
+#iconesFinal svg:hover{
+    fill: white;
+}
+
+#SN input{
+    border-radius: 30px;
+    height: 40px;
+    background-color: #333333;;
+    border: solid 1px #999999;
+    vertical-align: middle;
+    color: #999999;
+    font-size: 1em;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+}
+
+#SN button{
+    position: absolute;
+    height: 40px;
+    width: 3.2%;
+    border: none;
+    background-color: #0d0cb5;
+    color: white;
+    font-size: 1em;
+    font-family: 'Quicksand', sans-serif;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#Final{
+    text-align: center;
+    margin-top: 10%;
+}
+
+#Final p{
+    color: #737373;
+    font-size: 16px;
+}
+
+#Final svg{
+    fill: #737373;
+}
+
+#Final p span{
+    color: #999999;
+}
+
+#subMenu{
+    list-style: none;
+    position: absolute;
+    text-align: left;
+    border-top: 2px solid #0d0cb5;
+    border-left: 1px solid #edf0f5;
+    border-right: 1px solid #edf0f5;
+    border-bottom: 1px solid #edf0f5;
+    margin-top: 20px;
+    margin-left: 0px;
+    background: #fff;    
+    opacity: 0;
+    transition: 0.5;
+}
+
+#subMenu li{
+    padding: 10px;
+    margin: 0;
+}
+#Services:hover #subMenu
+{
+    opacity: 1;
+    transition: 0.5;
+}
+
+.backcolor:hover
+{
+    background-color: #F4F5F9 ;
+}
